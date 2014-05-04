@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD21EDC31916C833007252F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21EDC21916C833007252F7 /* Foundation.framework */; };
+		AD21EDC51916C833007252F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21EDC41916C833007252F7 /* CoreGraphics.framework */; };
+		AD21EDC71916C833007252F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21EDC61916C833007252F7 /* UIKit.framework */; };
+		AD21EDCD1916C833007252F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD21EDCB1916C833007252F7 /* InfoPlist.strings */; };
+		AD21EDCF1916C833007252F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDCE1916C833007252F7 /* main.m */; };
+		AD21EDD31916C833007252F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDD21916C833007252F7 /* AppDelegate.m */; };
+		AD21EDD61916C833007252F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21EDD41916C833007252F7 /* Main.storyboard */; };
+		AD21EDD91916C833007252F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDD81916C833007252F7 /* ViewController.m */; };
+		AD21EDDB1916C833007252F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21EDDA1916C833007252F7 /* Images.xcassets */; };
+		AD21EDE21916C833007252F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21EDE11916C833007252F7 /* XCTest.framework */; };
+		AD21EDE31916C833007252F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21EDC21916C833007252F7 /* Foundation.framework */; };
+		AD21EDE41916C833007252F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21EDC61916C833007252F7 /* UIKit.framework */; };
+		AD21EDEC1916C833007252F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD21EDEA1916C833007252F7 /* InfoPlist.strings */; };
+		AD21EDEE1916C833007252F7 /* rebound_wipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDED1916C833007252F7 /* rebound_wipTests.m */; };
+		AD21EDFA1916CE8B007252F7 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = AD21EDF91916CE8B007252F7 /* readme */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD21EDE51916C833007252F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD21EDB71916C833007252F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD21EDBE1916C833007252F7;
+			remoteInfo = "rebound-wip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD21EDBF1916C833007252F7 /* rebound-wip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rebound-wip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21EDC21916C833007252F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD21EDC41916C833007252F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD21EDC61916C833007252F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD21EDCA1916C833007252F7 /* rebound-wip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rebound-wip-Info.plist"; sourceTree = "<group>"; };
+		AD21EDCC1916C833007252F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD21EDCE1916C833007252F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD21EDD01916C833007252F7 /* rebound-wip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rebound-wip-Prefix.pch"; sourceTree = "<group>"; };
+		AD21EDD11916C833007252F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD21EDD21916C833007252F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD21EDD51916C833007252F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD21EDD71916C833007252F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD21EDD81916C833007252F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD21EDDA1916C833007252F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD21EDE01916C833007252F7 /* rebound-wipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rebound-wipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21EDE11916C833007252F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD21EDE91916C833007252F7 /* rebound-wipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rebound-wipTests-Info.plist"; sourceTree = "<group>"; };
+		AD21EDEB1916C833007252F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD21EDED1916C833007252F7 /* rebound_wipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rebound_wipTests.m; sourceTree = "<group>"; };
+		AD21EDF91916CE8B007252F7 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD21EDBC1916C833007252F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21EDC51916C833007252F7 /* CoreGraphics.framework in Frameworks */,
+				AD21EDC71916C833007252F7 /* UIKit.framework in Frameworks */,
+				AD21EDC31916C833007252F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21EDDD1916C833007252F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21EDE21916C833007252F7 /* XCTest.framework in Frameworks */,
+				AD21EDE41916C833007252F7 /* UIKit.framework in Frameworks */,
+				AD21EDE31916C833007252F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD21EDB61916C833007252F7 = {
+			isa = PBXGroup;
+			children = (
+				AD21EDC81916C833007252F7 /* rebound-wip */,
+				AD21EDE71916C833007252F7 /* rebound-wipTests */,
+				AD21EDC11916C833007252F7 /* Frameworks */,
+				AD21EDC01916C833007252F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD21EDC01916C833007252F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDBF1916C833007252F7 /* rebound-wip.app */,
+				AD21EDE01916C833007252F7 /* rebound-wipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD21EDC11916C833007252F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDC21916C833007252F7 /* Foundation.framework */,
+				AD21EDC41916C833007252F7 /* CoreGraphics.framework */,
+				AD21EDC61916C833007252F7 /* UIKit.framework */,
+				AD21EDE11916C833007252F7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD21EDC81916C833007252F7 /* rebound-wip */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDF81916CE65007252F7 /* Images */,
+				AD21EDF71916CE60007252F7 /* GUI */,
+				AD21EDDA1916C833007252F7 /* Images.xcassets */,
+				AD21EDC91916C833007252F7 /* Supporting Files */,
+				AD21EDF91916CE8B007252F7 /* readme */,
+			);
+			path = "rebound-wip";
+			sourceTree = "<group>";
+		};
+		AD21EDC91916C833007252F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDCA1916C833007252F7 /* rebound-wip-Info.plist */,
+				AD21EDCB1916C833007252F7 /* InfoPlist.strings */,
+				AD21EDCE1916C833007252F7 /* main.m */,
+				AD21EDD01916C833007252F7 /* rebound-wip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD21EDE71916C833007252F7 /* rebound-wipTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDED1916C833007252F7 /* rebound_wipTests.m */,
+				AD21EDE81916C833007252F7 /* Supporting Files */,
+			);
+			path = "rebound-wipTests";
+			sourceTree = "<group>";
+		};
+		AD21EDE81916C833007252F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDE91916C833007252F7 /* rebound-wipTests-Info.plist */,
+				AD21EDEA1916C833007252F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD21EDF71916CE60007252F7 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				AD21EDD11916C833007252F7 /* AppDelegate.h */,
+				AD21EDD21916C833007252F7 /* AppDelegate.m */,
+				AD21EDD41916C833007252F7 /* Main.storyboard */,
+				AD21EDD71916C833007252F7 /* ViewController.h */,
+				AD21EDD81916C833007252F7 /* ViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		AD21EDF81916CE65007252F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD21EDBE1916C833007252F7 /* rebound-wip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21EDF11916C833007252F7 /* Build configuration list for PBXNativeTarget "rebound-wip" */;
+			buildPhases = (
+				AD21EDBB1916C833007252F7 /* Sources */,
+				AD21EDBC1916C833007252F7 /* Frameworks */,
+				AD21EDBD1916C833007252F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rebound-wip";
+			productName = "rebound-wip";
+			productReference = AD21EDBF1916C833007252F7 /* rebound-wip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD21EDDF1916C833007252F7 /* rebound-wipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21EDF41916C833007252F7 /* Build configuration list for PBXNativeTarget "rebound-wipTests" */;
+			buildPhases = (
+				AD21EDDC1916C833007252F7 /* Sources */,
+				AD21EDDD1916C833007252F7 /* Frameworks */,
+				AD21EDDE1916C833007252F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD21EDE61916C833007252F7 /* PBXTargetDependency */,
+			);
+			name = "rebound-wipTests";
+			productName = "rebound-wipTests";
+			productReference = AD21EDE01916C833007252F7 /* rebound-wipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD21EDB71916C833007252F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Khoi Tran";
+				TargetAttributes = {
+					AD21EDDF1916C833007252F7 = {
+						TestTargetID = AD21EDBE1916C833007252F7;
+					};
+				};
+			};
+			buildConfigurationList = AD21EDBA1916C833007252F7 /* Build configuration list for PBXProject "rebound-wip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD21EDB61916C833007252F7;
+			productRefGroup = AD21EDC01916C833007252F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD21EDBE1916C833007252F7 /* rebound-wip */,
+				AD21EDDF1916C833007252F7 /* rebound-wipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD21EDBD1916C833007252F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21EDFA1916CE8B007252F7 /* readme in Resources */,
+				AD21EDDB1916C833007252F7 /* Images.xcassets in Resources */,
+				AD21EDCD1916C833007252F7 /* InfoPlist.strings in Resources */,
+				AD21EDD61916C833007252F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21EDDE1916C833007252F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21EDEC1916C833007252F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD21EDBB1916C833007252F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21EDD91916C833007252F7 /* ViewController.m in Sources */,
+				AD21EDD31916C833007252F7 /* AppDelegate.m in Sources */,
+				AD21EDCF1916C833007252F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD21EDDC1916C833007252F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21EDEE1916C833007252F7 /* rebound_wipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD21EDE61916C833007252F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD21EDBE1916C833007252F7 /* rebound-wip */;
+			targetProxy = AD21EDE51916C833007252F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD21EDCB1916C833007252F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21EDCC1916C833007252F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD21EDD41916C833007252F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21EDD51916C833007252F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21EDEA1916C833007252F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21EDEB1916C833007252F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD21EDEF1916C833007252F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD21EDF01916C833007252F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD21EDF21916C833007252F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rebound-wip/rebound-wip-Prefix.pch";
+				INFOPLIST_FILE = "rebound-wip/rebound-wip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD21EDF31916C833007252F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rebound-wip/rebound-wip-Prefix.pch";
+				INFOPLIST_FILE = "rebound-wip/rebound-wip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD21EDF51916C833007252F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rebound-wip.app/rebound-wip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rebound-wip/rebound-wip-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rebound-wipTests/rebound-wipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD21EDF61916C833007252F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rebound-wip.app/rebound-wip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rebound-wip/rebound-wip-Prefix.pch";
+				INFOPLIST_FILE = "rebound-wipTests/rebound-wipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD21EDBA1916C833007252F7 /* Build configuration list for PBXProject "rebound-wip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21EDEF1916C833007252F7 /* Debug */,
+				AD21EDF01916C833007252F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21EDF11916C833007252F7 /* Build configuration list for PBXNativeTarget "rebound-wip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21EDF21916C833007252F7 /* Debug */,
+				AD21EDF31916C833007252F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD21EDF41916C833007252F7 /* Build configuration list for PBXNativeTarget "rebound-wipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21EDF51916C833007252F7 /* Debug */,
+				AD21EDF61916C833007252F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD21EDB71916C833007252F7 /* Project object */;
+}
